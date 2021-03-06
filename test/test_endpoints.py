@@ -1,4 +1,6 @@
-import unittest
+# test_endpoints.py
+
+import unittest # use unittest
 
 from betamax import Betamax
 from app import app
@@ -9,6 +11,7 @@ with Betamax.configure() as config:
 test_auth_token = 'MLth87eHvSAaCQ1vn7jTd0xA9Kapo5'
 
 
+# create class TestCases(unittest.TestCase):
 class TestCases(unittest.TestCase):
     def setUp(self):
         # Necessary to disable SSLify
