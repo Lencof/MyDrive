@@ -1,7 +1,9 @@
+# __Author__ __Lencof__
 # setup.py
 
 from setuptools import setup, find_packages
 
+# create cortege
 setup(
     name='Python-Sample-Application',
     version='0.0.1',
